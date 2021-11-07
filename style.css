@@ -1,0 +1,98 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+.banner, .another_button, .card {
+    border-radius: 10px;
+}
+
+
+.another_button {
+    background-color: transparent;
+    padding:5px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+
+
+
+.card {
+    width:100px;
+    height:100px;
+    border-style: solid;
+    border-color:#3882F6;
+
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+/* section with the quote */
+.quote_container {
+    display: flex;
+    background: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 200px;
+    left: 0;
+    right: 0;
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    width:600px;
+    text-align: justify;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.signature {
+    display: flex;
+    margin-top: 50px;
+    white-space: nowrap;
+}
+
+/* the blue sign up banner at the bottom */
+.banner_container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    background: #3882F6;
+    width: 800px;
+    height: 100px;
+    display:flex;
+    gap: 40px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer { 
+    height: 72px;
+    background: #1F2937;
+    color: rgb(255, 255, 255);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
