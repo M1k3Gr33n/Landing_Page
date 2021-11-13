@@ -7,7 +7,7 @@ body, html{
 .banner, .another_button, .card, .sign_up_button {
     border-radius: 10px;
 }
-.display_heading_title, .display_heading_descrip, .sign_up_button {
+.display_heading_title, .display_heading_descrip{
     color:#E5E7EB;
     margin-left: 10%;
 }
@@ -17,9 +17,9 @@ body, html{
     color: #F9FAF8;
     display: flex;
     font-weight: bold;
-    align-items: center;
     justify-content: center;
-    gap: 20%;
+    align-items: center;
+    gap: 35%;
     padding-bottom: 2%;
 }
 
@@ -40,15 +40,15 @@ body, html{
     justify-content: center;
     padding: 90px;
     padding-top:30px;
-    gap:20%;
+    gap:10%;
 }
 
 .display_heading_title {
-    flex-basis: 400px;
+    flex-basis: 500px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 
 .sign_up_button {
@@ -66,9 +66,10 @@ body, html{
     font-weight: bold;
 }
 
+
 .display_heading_image img {
     width: 400px;
-    height: 350px;
+    height: 300px;
 }
 
 ol {
